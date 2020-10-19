@@ -5,7 +5,7 @@ body {
 
 ol,
 ul {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .board-row:after {
@@ -48,4 +48,8 @@ ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.game-info li button.selected {
+  font-weight: bold;
 }
